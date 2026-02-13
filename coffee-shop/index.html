@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Culture</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+
+        header {
+            background-color: #3e2723;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        .hero {
+            background-image: url("https://img-cdn.publive.online/fit-in/1200x675/pratidin/media/media_files/2024/12/26/w7UiOpjDWvUbpeMO6uFQ.jpeg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: flex-end;   
+            justify-content: center; 
+            padding-bottom: 60px;
+            color: white;
+        }
+
+
+
+
+        .hero h2 {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px 30px;
+            border-radius: 6px;
+        }
+
+
+        .row {
+            width: 85%;
+            margin: 40px auto;
+            display: flex;
+            gap: 25px;
+        }
+
+        /* BOX STYLE */
+        .box {
+            flex: 1;
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h2 {
+            color: #6f4e37;
+            margin-bottom: 10px;
+        }
+
+        /* MENU */
+        .menu-section {
+            width: 85%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .menu-section h2 {
+            text-align: center;
+            color: #6f4e37;
+            margin-bottom: 30px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .menu-box {
+            width: 250px;
+            margin: 15px;
+        }
+
+        .menu-box h3 {
+            border-bottom: 2px solid #6f4e37;
+            padding-bottom: 5px;
+            color: #6f4e37;
+        }
+
+        .menu-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-box li {
+            padding: 6px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+
+
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+
+        @media (max-width: 800px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dolly Coffee Waala</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">View</a>
+            <a href="#">Locations</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to Coffee And Chai Culture</h2>
+    </div>
+
+
+    <div class="row">
+
+        <div class="box">
+            <h2>About Us</h2>
+            <p>
+                Dolly Coffee Waala is a cozy place for true coffee lovers.
+                We serve freshly brewed coffee and tea made from premium beans and leaves
+                in a warm and welcoming environment.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Our Specialities</h2>
+            <ul>
+                <li>Freshly Roasted Coffee</li>
+                <li>Handcrafted Chai</li>
+                <li>Premium Quality Beans</li>
+                <li>Relaxing Café Ambience</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="menu-section">
+        <h2>Our Menu</h2>
+
+        <div class="menu">
+            <div class="menu-box">
+                <h3>Coffee</h3>
+                <ul>
+                    <li>Espresso</li>
+                    <li>Cappuccino</li>
+                    <li>Latte</li>
+                    <li>Americano</li>
+                </ul>
+            </div>
+
+            <div class="menu-box">
+                <h3>Tea</h3>
+                <ul>
+                    <li>Masala Tea</li>
+                    <li>Extra Masala Tea</li>
+                    <li>Extra Extra Masala Tea</li>
+                    <li>Simple Tea</li>
+                </ul>
+            </div>
+
+            <div class="menu-box">
+                <h3>Desserts</h3>
+                <ul>
+                    <li>Brownies</li>
+                    <li>Biscoff</li>
+                    <li>Cookies</li>
+                    <li>Muffins</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        ©️ 2026 Dolly Coffee Waala. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
